@@ -2,6 +2,8 @@
 
 An implementation of the gap statistic algorithm from Tibshirani, Walther, and Hastie's "Estimating the number of clusters in a data set via the gap statistic". A description of the algorithm can be found [here](http://echen.me/posts/counting-clusters).
 
+ebakstein: modified version, random data are not uniform but multivariate normal with covariation matrix estimated from the data
+
 # Examples
 
 		# Single cluster in 5 dimensions
